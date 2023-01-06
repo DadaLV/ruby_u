@@ -5,3 +5,6 @@ stupid = false
 
 p handsome
 p stupid.class 
+
+p 2.even?
+p 10.odd?
