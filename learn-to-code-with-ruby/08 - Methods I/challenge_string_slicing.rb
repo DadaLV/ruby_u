@@ -1,0 +1,1 @@
+puts "abc".slice(1, 2)
