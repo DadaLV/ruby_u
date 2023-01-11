@@ -1,7 +1,19 @@
-color = "Green"
+grade = "C"
 
-if color == "Red"
-  puts "Red is red"
-elsif color == "Green"
-  puts "Green is green"
+if grade == "A"
+  puts "Excellent"
+elsif grade == "B"
+  puts "Good"
+else 
+  puts "Unacceptable"
 end
+
+def odd_or_even(number)
+  if number.odd?
+    "That number is odd"
+  else
+    "That number is even"
+  end
+end
+
+p odd_or_even(11)
