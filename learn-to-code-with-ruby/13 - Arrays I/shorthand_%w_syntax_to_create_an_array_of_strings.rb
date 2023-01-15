@@ -1,0 +1,1 @@
+names = %w[Jack Jill John James] #creating of array of strings
