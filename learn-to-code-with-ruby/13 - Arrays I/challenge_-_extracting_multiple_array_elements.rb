@@ -13,6 +13,10 @@ end
 def product_of_even_indices(nums)
   nums[0] * nums[2] * nums[4]
 end
+
+# def first_and_last(elements)
+#   elements[0] + elements[-1]
+# end
 # Define a product_of_even_indices method that accepts an array of numbers. 
 # The array will always have 6 total elements. 
 # The method should return the product (multiplied total) of all numbers at an even index (0, 2, 4).
@@ -29,3 +33,7 @@ end
 #
 # first_letter_of_last_string(["cat", "dog", "zebra"]) => "z"
 # first_letter_of_last_string(["nonsense"]) => "n"
+
+# def first_letter_of_last_string(elements)
+#   elements[-1][0]
+# end
