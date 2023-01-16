@@ -11,3 +11,5 @@ good, bad = foods.partition { |food| food.include?("steak") }
 
 p good # ["steak", "cheese steak"]
 p bad # ["sishi", "apple", "bread", "omlet"]
+
+p [1, 2, 3, 4, 5].partition { |num| num.even? }
