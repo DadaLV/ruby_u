@@ -41,3 +41,9 @@ end
 arr = [-1, 2, 1, 2, 5, 7, 3]
 
 print_if(arr)
+
+colors = ["red", "blue", "green", "red"]
+
+p colors.index("blue") #1
+p colors.index("red") # 0 - the first index
+p colors.find_index("orande") # nil
