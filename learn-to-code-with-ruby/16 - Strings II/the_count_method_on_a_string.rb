@@ -7,5 +7,5 @@ def custom_count(string, search_characters)
   count
 end
 
-p custom_count("ajhjhfj", "j")
+p custom_count("ajhjhfj", "jh")
 
