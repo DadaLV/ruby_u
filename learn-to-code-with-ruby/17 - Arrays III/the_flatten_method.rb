@@ -11,4 +11,4 @@ registrations = [
 
 p registrations.flatten
 
-# p registrations.flatten!
+p registrations.flatten!
