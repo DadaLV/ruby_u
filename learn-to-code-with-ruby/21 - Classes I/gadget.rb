@@ -5,7 +5,7 @@ class Gadget
     @production_number = "#{("a".."z").to_a.sample}-#{rand(1..999)}"
   end
 
-  def info
+  def to_s
     "Gadget #{@production_number} has the username #{@username}"
   end
 end
