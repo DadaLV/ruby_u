@@ -1,7 +1,7 @@
 class Gadget
   
   attr_reader :production_number
-  attr_accessor :username
+  attr_accessor :username, :password
 
   def initialize(username, password)
     @username = username
